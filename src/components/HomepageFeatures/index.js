@@ -4,32 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Tutto sul Jailbreak',
+    Svg: require('@site/static/img/lock.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Da noi puoi trovare tutte le guide per eseguire il Jailbreak sul tuo dispositivo iOS/iPadOS!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Guide per tutti',
+    Svg: require('@site/static/img/code.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Dispositivo non compatibile col Jailbreak? Nessun problema, 
+        qui trovi anche molte guide utili adatte a tutti gli iDevice.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Tieniti aggiornato!',
+    Svg: require('@site/static/img/news.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Rimani aggiornato sulle ultime novità sul mondo Apple e Jailbreak, iscriviti
+        al nostro [Canale News](https://t.me/JailbreakItaliaNews).
       </>
     ),
   },

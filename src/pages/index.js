@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Benvenuto in ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Jailbreak IT ${siteConfig.title}`}
+      description="JB IT">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

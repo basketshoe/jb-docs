@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'JailBreak Italia',
-  tagline: 'Il sito ufficiale di JailBreak Italia',
+  title: 'Jailbreak Italia',
+  tagline: 'Il sito ufficiale di Jailbreak Italia',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
