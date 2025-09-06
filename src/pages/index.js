@@ -32,7 +32,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Jailbreak IT ${siteConfig.title}`}
+      title={`Jailbreak IT`}
       description="JB IT">
       <HomepageHeader />
       <main>

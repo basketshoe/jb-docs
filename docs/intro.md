@@ -1,8 +1,7 @@
 ---
+title: Benvenuto in Jailbreak IT
 sidebar_position: 1
 ---
-
-# JailBreak Italia
 
 Benvenuto nel sito ufficiale di JailBreak Italia!
 Qui troverai diverse guide per eseguire il JailBreak e molto altro al tuo dispositivo iOS/iPadOS.

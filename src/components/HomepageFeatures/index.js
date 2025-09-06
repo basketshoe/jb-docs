@@ -28,7 +28,7 @@ const FeatureList = [
     description: (
       <>
         Rimani aggiornato sulle ultime novità sul mondo Apple e Jailbreak, iscriviti
-        al nostro [Canale News](https://t.me/JailbreakItaliaNews).
+        al nostro <a href="https://t.me/JailbreakItaliaNews">Canale News</a>.
       </>
     ),
   },
