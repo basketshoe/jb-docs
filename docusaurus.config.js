@@ -49,17 +49,6 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -72,20 +61,30 @@ const config = {
     ({
       navbar: {
         title: 'JB Italia',
-        logo: {
+        /*logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
-        },
+        },*/
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Guide',
           },
           {
             href: 'https://github.com/basketshoe/jb-docs',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://t.me/jailbreakitalia',
+            label: 'Gruppo Telegram',
+            position: 'right',
+          },
+          {
+            href: 'https://t.me/jailbreakitalianews',
+            label: 'Canale News',
             position: 'right',
           },
         ],
