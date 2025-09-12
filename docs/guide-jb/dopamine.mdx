@@ -3,43 +3,34 @@ title: Dopamine
 description: Guida per l'installazione di Dopamine
 ---
 
+:::warning
+Se hai cambiato schermo al tuo dispositivo, c'è una possibilità (soprattutto se lo schermo è di bassa qualità) che il touch screen non funzioni più dopo un userspace reboot. In questo caso, non seguire la guida!
+:::
+
 ## Premessa
 È ora disponibile [Dopamine 2](https://ellekit.space/dopamine/) che consente il jailbreak di iOS 15.0 - 16.6.1 su dispositivi con processori da A9 a A16 e M1 - M2.
 
 È riportata qui sotto la tabella di compatibilità (fonte: [Discord di r/jailbreak](https://discord.gg/jb))
-Se non conosci il tuo processore digita ```!processori``` nel gruppo o visita [questo sito](https://appledb.dev/device-selection/).
+Se non conosci il tuo processore digita `!processori` nel gruppo o visita [questo sito](https://appledb.dev/device-selection/).
 
 ![Tabella di compatibilità](https://hedgedoc.devol.it/uploads/768a959e-986c-47d3-b458-abab2881ff1c.png)
 
-----
-
-## Disinstalla Jailbreak Precedenti
-
-:::info
-Puoi saltare questa sezione se non disponi di un jailbreak
-:::
-
-È **molto importante** rimuovere roothide Bootstrap / Serotonin prima di installare Dopamine.
-1. Rimuovi l'injection di tutte le app nell'app Bootstrap
-2. Premi su "Select All" e "Clean" nel tab varClean dell'app roothide Manager (```com.roothide.manager```)
-3. Rimuovi ```/var/mobile/Serotonin.jp2``` (o ```/rootfs/var/mobile/Serotonin.jp2```)
-4. Riavvia il dispositivo
-5. Premi "Uninstall" nell'app roothide Bootstrap
-
 :::danger
-Se non rimuovi l'injection delle app, queste non si avvieranno con Dopamine (incluse quelle di sistema).
+Se hai installato palera1n rootful, Serotonin o Bootstrap, dovrai rimuoverli prima di procedere.
 :::
+
+----
 
 ## Installazione
 
-Installare l'app sul dispositivo è possibile tramite Sideloading (digita ```!altstore``` o ```!sideloadly``` sul gruppo) o tramite TrollStore (digita ```!trollstore``` sul gruppo).
+Installare l'app sul dispositivo è possibile tramite Sideloading (digita `!altstore` o `!sideloadly` sul gruppo) o tramite TrollStore (digita `!trollstore` sul gruppo).
 
 :::warning
-È ALTAMENTE consigliata l'installazione tramite [Trollstore](/docs/trollstore)!
+È ALTAMENTE consigliata l'installazione tramite **TrollStore**, trovi la guida a [questo link](/docs/trollstore)!
 :::
 
 ### Link
-Collegati a [questo link](https://github.com/opa334/Dopamine/releases/latest), se vuoi installare Dopamine tramite sideloading scarica il file ```Dopamine.ipa``` altrimenti, se vuoi installarla tramite TrollStore, scarica ```Dopamine.tipa```.
+Collegati a [questo link](https://github.com/opa334/Dopamine/releases/latest), se vuoi installare Dopamine tramite sideloading scarica il file `Dopamine.ipa` altrimenti, se vuoi installarla tramite TrollStore, scarica `Dopamine.tipa`.
 
 *Nota che per le versioni beta di iOS è necessario installare Dopamine tramite TrollStore*
 
@@ -54,15 +45,7 @@ Se l'app crasha o il device si riavvia inaspettatamente e il jailbreak non è in
 
 Sileo dovrebbe ora essere installato nella homescreen e potrai utilizzarlo per installare tweak o temi.
 
-## Installare il software necessario
-1. Apri Sileo
-2. Tocca su "Sorgenti"
-3. Aggiorna le Repo
-4. Cerca il tweak ElleKit
-5. Tocca "Ottieni"
-6. Tocca la bara "Coda" in fondo alla pagina
-7. Tocca su "Conferma"
-8. Una volta finito tocca "Restart SpringBoard"
+Installa ElleKit e PreferenceLoader da Sileo per far sì che tutto funzioni correttamente.
 
 :::info
 Dopo aver eseguito tutti gli step, riavvia e riesegui il jailbreak.
